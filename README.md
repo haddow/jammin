@@ -1,7 +1,11 @@
 ## jammin
 Downloads NASA SMAP satellite RFI maps and creates animation with ffmpeg. 
 
-SMAP RFI may be proxy indication for jamming in the L-Band. 
+SMAP (sensitive 1400-1427 MHz) RFI may be proxy indication of jamming in the L-Band. 
 
-You will need ffmpeg installed to create the animation.
+**Prerequisites:** Ensure FFmpeg is installed on your system to create the animation.
 
+---
+
+- https://salinity.oceansciences.org/smap-radiometer.htm
+- https://smap.jpl.nasa.gov/rfi/

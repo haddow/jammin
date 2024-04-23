@@ -4,7 +4,7 @@ import os
 import datetime
 
 download_dir = 'downloads'
-os.makedirs(download_dir, exist_ok=True)  # Ensure the download directory exists
+os.makedirs(download_dir, exist_ok=True)
 
 current_year = datetime.datetime.now().year
 current_month = datetime.datetime.now().month
